@@ -1,0 +1,61 @@
+<html>
+<head>
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<title>Dayang precious Gallery</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h>Dayang precious Gallery</h>
+    <div class="full-img" id="fullImgBox">
+        <img src="test.jpg" id="fullImg">
+        <span onclick="closeFullImg()">X</span>
+    
+    </div>
+    
+    <div class="img-gallery" onclick="openFullImg(this.src)">
+        <img src="eugin%20graduation.jpeg" onclick="openFullImg(this.src)">
+        <img src="dayang%20and%20friend.jpeg" onclick="openFullImg(this.src)">
+        <img src="dayang%20friend.jpeg" onclick="openFullImg(this.src)">
+        <img src="brother%20and%20sister.jpeg" onclick="openFullImg(this.src)">
+        <img src="vacation.jpeg" onclick="openFullImg(this.src)">
+        <img src="puyang.jpeg" onclick="openFullImg(this.src)">
+        <img src="grace%20and%20khai.jpeg" onclick="openFullImg(this.src)">
+        
+        
+        <img src="namjachingu.jpeg" onclick="openFullImg(this.src)">
+        <img src="gilbert%20kacak.jpeg" onclick="openFullImg(this.src)">
+        <img src="3%20SQUAD.jpeg" onclick="openFullImg(this.src)">
+        <img src="TAMAN%20MARINA.jpeg" onclick="openFullImg(this.src)">
+        <img src="GULA.jpeg" onclick="openFullImg(this.src)">
+        <img src="SI%20MANIS.jpeg" onclick="openFullImg(this.src)">
+        <img src="LE%20WEEKEND.jpeg" onclick="openFullImg(this.src)">
+        <img src="TEALIVE.jpeg" onclick="openFullImg(this.src)">
+        <img src="FATMA%20N%20MADAM.jpeg" onclick="openFullImg(this.src)">
+        <img src="BUFFET.jpeg" onclick="openFullImg(this.src)">
+        
+        <img src="SELFIE.jpeg" onclick="openFullImg(this.src)">
+        <img src="PANTAI.jpeg" onclick="openFullImg(this.src)">
+        <img src="JABATAN.jpeg" onclick="openFullImg(this.src)">
+        <img src="PUYANG%20CUCUK%20HIDUNG.jpeg" onclick="openFullImg(this.src)">
+        <img src="PANAS%20HARI.jpeg" onclick="openFullImg(this.src)">
+        <img src="AMOI%20CANTIK.jpeg" onclick="openFullImg(this.src)">
+    </div>
+    <script>
+    
+        var fullImgBox= document.getElementById("fullImgBox");
+        var fullImg= document.getElementById("fullImg");
+        
+        function openFullImg(pic){
+            fullImgBox.style.display ="flex";
+            fullImg.src = pic;
+            
+        }
+        
+        function closeFullImg(){
+            fullImgBox.style.display ="none";
+        }
+        
+    
+    </script>
+    </body>
+</html>
